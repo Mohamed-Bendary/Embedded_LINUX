@@ -28,20 +28,20 @@ cout<<"String is empty"<<"\n";
 }
 else{
 
-   cout<<"Strin is not empty"<<"\n";
+   cout<<"String is not empty"<<"\n";
 }
 
 username = "linux";
 
-/* Append addes string to the variable*/
+/* Append addes string to the variable */
 username.append(" Academy");
 cout<<username<<"\n";
 
-/* push back adds element to string*/
+/* push back adds element to string */
 username.push_back('D');
 cout<<username<<"\n";
 
-/* pop back deletes the last charachter*/
+/* pop back deletes the last charachter */
 username.pop_back();
 cout << username <<"\n";
 
