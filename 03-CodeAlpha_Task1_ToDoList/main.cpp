@@ -6,7 +6,7 @@
 #include <locale>
 #include <codecvt>
 
-#define MAX_TASKS       50
+#define MAX_TASKS       30
 
 using namespace std;
 
@@ -21,6 +21,7 @@ using namespace std;
 #define MAX_NAME_LENGHT                     15
 #define MAX_DESCRIPTION_LENGTH              100 
 
+/************************************User_Defined datatypes**********************************************/
 enum class Task_Status
 {
 Done = 1,
@@ -66,7 +67,7 @@ Tasks();
 };
 
 
-// ANSI escape codes for colors //
+// ANSI Escape codes for colors //
 const string RESET = "\033[0m";
 const string RED = "\033[31m";
 const string GREEN = "\033[32m";
@@ -597,19 +598,4 @@ void Display_Tasks()
   Description = "NULL";  
 
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
